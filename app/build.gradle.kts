@@ -42,6 +42,8 @@ dependencies {
     implementation(libs.androidx.compose.material3)
     //icon
     implementation(libs.compose.icons)
+    //Rooms
+    implementation(libs.bundles.room)
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
