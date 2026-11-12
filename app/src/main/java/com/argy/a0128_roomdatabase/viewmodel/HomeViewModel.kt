@@ -1,0 +1,4 @@
+package com.argy.a0128_roomdatabase.viewmodel
+
+class HomeViewModel {
+}
