@@ -44,6 +44,8 @@ dependencies {
     implementation(libs.compose.icons)
     //Rooms
     implementation(libs.bundles.room)
+    //ViewModel
+    implementation(libs.lifecycle.viewmodel.compose)
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
