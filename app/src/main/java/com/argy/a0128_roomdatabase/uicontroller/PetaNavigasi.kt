@@ -15,6 +15,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.argy.a0128_roomdatabase.R
+import com.argy.a0128_roomdatabase.view.EntrySiswaScreen
 import com.argy.a0128_roomdatabase.view.HomeScreen
 
 @Composable

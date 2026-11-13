@@ -12,7 +12,7 @@ android {
 
     defaultConfig {
         applicationId = "com.argy.a0128_roomdatabase"
-        minSdk = 36
+        minSdk = 26
         targetSdk = 37
         versionCode = 1
         versionName = "1.0"
@@ -44,6 +44,7 @@ dependencies {
     implementation(libs.compose.icons)
     //Rooms
     implementation(libs.bundles.room)
+    ksp(libs.room.compiler)
     //ViewModel
     implementation(libs.lifecycle.viewmodel.compose)
     implementation(libs.lifecycle.runtime.compose)
